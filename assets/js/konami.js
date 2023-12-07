@@ -10,8 +10,8 @@ var allowedKeys = {
   
 // the 'official' Konami Code sequence
 // var konamiCode = ['left', 'down', 'right', 'down', 'left', 'up', 'down'];
-var konamiCode = ['left'];
-
+// var konamiCode = ['left'];
+var konamiCode = ['left', 'down', 'right'];
 // a variable to remember the 'position' the user has reached so far.
 var konamiCodePosition = 0;
 
@@ -39,5 +39,6 @@ document.addEventListener('keydown', function(e) {
 });
   
 function activateCheats() {
-    alert("cheats activated");
+    // alert("cheats activated");
+    window.location.href = '404.html'
 }
