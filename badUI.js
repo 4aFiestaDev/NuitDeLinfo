@@ -72,35 +72,8 @@ function generatePopups() {
 } */
 
 function createPopup() {
-  const popup = window.open('', 'ok', 'width=600,height=400,left=50%,top=50%');
+  window.open('https://www.youtube.com/watch?v=xvFZjo5PgG0', '', 'width=600,height=400,left=50%,top=50%');
 
-  // Ajouter du contenu HTML à la popup
-  popup.document.write(`
-    <html>
-    <head>
-      <title>Popup Information</title>
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-          background-color: #fafafa;
-          text-align: center;
-        }
-        h1 {
-          color: #333333;
-        }
-        p {
-          color: #555555;
-        }
-      </style>
-    </head>
-    <body>
-      <h1>Popup Information</h1>
-      <p>Browser: ezrr</p>
-      <p>Version: sdfds</p>
-      <p>Platform: aze</p>
-    </body>
-    </html>
-  `);
 }
 
 const language = false
