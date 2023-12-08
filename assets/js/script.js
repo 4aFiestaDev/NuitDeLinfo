@@ -1,3 +1,10 @@
+window.addEventListener("keydown", function (e) {
+  // If the pressed key is an arrow key, prevent the default behavior
+  if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.key)) {
+    e.preventDefault();
+  }
+});
+
 // Create a tetris game
 
 // Create a canvas

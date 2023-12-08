@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tetris</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body id="tetrisBody">
-    <canvas id="tetrisCanvas" width="240" height="400"></canvas>
-    <div>
-      <span>SCORE : </span>
-      <p id="score"></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body id="tetrisBody">
+    <main class="tetris-container">
+      <h1 class="tetris-heading">TETRIS</h1>
+      <p class="tetris-heading">
+        <small
+          >Good Job you find one of our easter egg !
+          <p class="tetris-heading tiny">
+            (and also our 404 page because you are lost...)
+          </p></small
+        >
+      </p>
+      <section id="tetris-controls">
+        <h2>How to Play</h2>
+        <ul>
+          <li><strong>Q:</strong> Rotate</li>
+          <li><strong>Left Arrow:</strong> Move Left</li>
+          <li><strong>Right Arrow:</strong> Move Right</li>
+          <li><strong>Down Arrow:</strong> Move Down</li>
+          <li><strong>Maintain Down Arrow:</strong> Drop</li>
 
-      <!-- dire que Q pour rotate -->
+          <!-- Add more controls as needed -->
+        </ul>
+      </section>
+      <canvas id="tetrisCanvas" width="240" height="400"></canvas>
+      <div>
+        <span>SCORE : </span>
+        <p id="score"></p>
 
-    </div>
+        <!-- dire que Q pour rotate -->
+      </div>
+    </main>
 
-  <script src="assets/js/script.js"></script>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
