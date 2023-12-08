@@ -82,7 +82,14 @@
     padding: 0;
     background-color: lightgreen !important; /* Light background color */
 }
-
+.charlie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1; 
+    max-height: 20px;
+  }
 header {
     background-color: #343a40; /* Dark background color */
     color: #fff;
