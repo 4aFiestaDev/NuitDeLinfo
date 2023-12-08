@@ -1,3 +1,10 @@
+window.addEventListener("keydown", function (e) {
+  // If the pressed key is an arrow key, prevent the default behavior
+  if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.key)) {
+    e.preventDefault();
+  }
+});
+
 // Create a tetris game
 
 // Create a canvas
@@ -110,7 +117,6 @@ function drawMatrix(matrix, offset) {
     row.forEach((cell, x) => {
       if (cell.color !== "undefined" && cell.value) {
         color = cell.color;
-        console.log(color);
         context.fillStyle = color;
         context.fillRect(x + offset.x, y + offset.y, 1, 1);
       }
@@ -124,11 +130,6 @@ function merge(arena, player) {
     row.forEach((cell, x) => {
       if (cell && cell.value !== 0) {
         const color = colors[cell.value];
-        console.log(
-          `Merged cell at (${x + player.pos.x}, ${
-            y + player.pos.y
-          }) with color: ${color}`
-        );
         arena[y + player.pos.y][x + player.pos.x] = {
           value: cell.value,
           color: color,

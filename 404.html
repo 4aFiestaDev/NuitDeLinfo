@@ -1,35 +1,43 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 - Page Not Found</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <div class="tetris-container" id="tetrisContainer"></div>
-
-    <h1>404 - Page Not Found</h1>
-    <p>Looks like you've hit a block! The page you are looking for does not exist.</p>
-
-    <script src="assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tetris</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <canvas id="tetrisCanvas" width="240" height="400"></canvas>
-    <p id="score"></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body id="tetrisBody">
+    <main class="tetris-container">
+      <h1 class="tetris-heading">TETRIS</h1>
+      <p class="tetris-heading">
+        <small
+          >Good Job you find one of our easter egg !
+          <p class="tetris-heading tiny">
+            (and also our 404 page because you are lost...)
+          </p></small
+        >
+      </p>
+      <section id="tetris-controls">
+        <h2>How to Play</h2>
+        <ul>
+          <li><strong>Q:</strong> Rotate</li>
+          <li><strong>Left Arrow:</strong> Move Left</li>
+          <li><strong>Right Arrow:</strong> Move Right</li>
+          <li><strong>Down Arrow:</strong> Move Down</li>
+          <li><strong>Maintain Down Arrow:</strong> Drop</li>
 
-  <script src="assets/js/script.js"></script>
-</body>
+          <!-- Add more controls as needed -->
+        </ul>
+      </section>
+      <canvas id="tetrisCanvas" width="240" height="400"></canvas>
+      <div>
+        <span>SCORE : </span>
+        <p id="score"></p>
+
+        <!-- dire que Q pour rotate -->
+      </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

@@ -1,5 +1,221 @@
+/* body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+  }
+  
+  .navbar a:hover {
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: green;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .charlie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1; 
+    max-height: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: green;
+    color: #fff;
+  }
+  
+  
+  
+
 #tetrisCanvas{
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 30vh auto !important;
     display: block;
+}
+
+#tetrisBody{
+    display: flex;
+    align-items: center;
+}
+ */
+
+
+
+ body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen; /* Light background color */
+}
+
+header {
+    background-color: #343a40; /* Dark background color */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Yellow hover color */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tetrisCanvas {
+    border: 2px solid #343a40; /* Dark border color */
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Additional Styles for Score Section */
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+p#score {
+    font-size: 24px;
+    color: black; /* Blue color for the score */
+}
+.tetris-heading {
+    font-size: 3em;
+    color: white; /* Red color for Tetris heading */
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+small {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white; /* Gray color for the small text */
+}
+
+.tetris-heading.tiny{
+    font-size: 10px !important;
+}
+
+/* Add this to your existing CSS */
+
+.tetris-container {
+    display: flex;
+}
+
+#tetris-controls {
+    width: 250px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+#tetris-controls h2 {
+    color: #343a40; /* Dark color for controls title */
+}
+
+#tetris-controls ul {
+    list-style: none;
+    padding: 0;
+}
+
+#tetris-controls li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+/* Additional Styling for Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 }
