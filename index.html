@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Application sur le Changement Climatique</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application sur le Changement Climatique</title> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>Comprendre le Changement Climatique</h1>
-      <nav>
-        <ul>
-          <li><a href="#causes">Causes</a></li>
-          <li><a href="#impacts">Impacts</a></li>
-          <li><a href="#solutions">Solutions</a></li>
-          <li><a href="#actions">Actions</a></li>
-          <li><a href="#engagement">Engagement</a></li>
-        </ul>
-      </nav>
+        <h1>Comprendre le Changement Climatique</h1>
+        <nav>
+            <ul>
+                <li><a href="#causes">Causes</a></li>
+                <li><a href="#impacts">Impacts</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#actions">Actions</a></li>
+                <li><a href="#engagement">Engagement</a></li>
+            </ul>
+        </nav>
     </header>
+
     <div class="charlie">
       <img
         src="assets/img/waldoPNGresized.png"
@@ -26,153 +32,190 @@
       />
     </div>
 
-    <main>
+    <main style="text-align: center;">
       <section id="causes">
-        <h2>Les Causes du Changement Climatique</h2>
-        <p>
-          Le changement climatique est principalement causé par l'accumulation
-          de gaz à effet de serre dans l'atmosphère, résultant de l'utilisation
-          de combustibles fossiles, de la déforestation et de pratiques
-          agricoles industrielles.
-        </p>
-        <p>
-          Les activités industrielles et la combustion de charbon, de pétrole et
-          de gaz naturel sont les principales sources d'émissions de dioxyde de
-          carbone.
-        </p>
-        <p>
-          La déforestation, en particulier dans les forêts tropicales, contribue
-          également de manière significative au changement climatique, car les
-          arbres absorbent le dioxyde de carbone de l'atmosphère.
-        </p>
-        <p>
-          L'élevage de bétail produit du méthane, un gaz à effet de serre plus
-          puissant que le CO2, exacerbant le réchauffement climatique.
-        </p>
-        <p>
-          Les pratiques agricoles, y compris l'utilisation d'engrais azotés,
-          libèrent des oxydes d'azote, un autre gaz à effet de serre.
-        </p>
+        <div class="row">
+          <div 
+            class="my-auto col"
+            data-aos="fade-right"
+            stye="align-self: center; "
+          >
+            <h2>Les Causes du Changement Climatique</h2>
+            <p>Le changement climatique est principalement causé par l'accumulation de gaz à effet de serre dans l'atmosphère, résultant de l'utilisation de combustibles fossiles, de la déforestation et de pratiques agricoles industrielles.</p>
+            <p>Les activités industrielles et la combustion de charbon, de pétrole et de gaz naturel sont les principales sources d'émissions de dioxyde de carbone.</p>
+            <p>La déforestation, en particulier dans les forêts tropicales, contribue également de manière significative au changement climatique, car les arbres absorbent le dioxyde de carbone de l'atmosphère.</p>
+            <p>L'élevage de bétail produit du méthane, un gaz à effet de serre plus puissant que le CO2, exacerbant le réchauffement climatique.</p>
+            <p>Les pratiques agricoles, y compris l'utilisation d'engrais azotés, libèrent des oxydes d'azote, un autre gaz à effet de serre.</p>
+          </div>
+          <div 
+            data-aos="fade-left" 
+            class="my-auto col" 
+            stye="align-self: center;"
+          >
+            <img src="images/gaz-effet-serre.jpg" alt="gaz" id="gaz">
+          </div>
+        </div>
       </section>
 
       <section id="impacts">
-        <h2>Impacts du Changement Climatique</h2>
-        <p>
-          Les impacts du changement climatique incluent des phénomènes
-          météorologiques extrêmes, la montée du niveau des mers, des
-          perturbations des écosystèmes et des risques accrus pour la santé
-          humaine.
-        </p>
-        <p>
-          La fonte des calottes glaciaires et des glaciers entraîne une
-          élévation du niveau de la mer, menaçant les communautés côtières et
-          les îles basses.
-        </p>
-        <p>
-          Les vagues de chaleur plus fréquentes et plus intenses augmentent les
-          risques de maladies liées à la chaleur et aggravent les conditions de
-          sécheresse.
-        </p>
-        <p>
-          Les changements dans les régimes de précipitations affectent
-          l'agriculture, réduisant la sécurité alimentaire dans de nombreuses
-          régions.
-        </p>
-        <p>
-          La perte de biodiversité due aux changements climatiques affecte les
-          écosystèmes, perturbant les services écosystémiques essentiels.
-        </p>
+        <div class="row">
+          <div 
+            data-aos="fade-right" 
+            data-aos-delay="400"
+            class="my-auto col" 
+            stye="align-self: center;"
+          >
+            <div class="row">
+              <img src="images/effet-serre.jpg" alt="effet-serre" id="effet-serre" height="50%">
+            </div>
+            <div class="row">
+              <ol style="text-align: left;">
+                <li>Le rayonnement solaire passe à travers l'atmosphère claire</li>
+                <li>Une partie du rayonnement est réfléchie par l'atmosphère et la surface de la Terre</li>
+                <li>L'énergie solaire est absorbée par la surface de la Terre</li>
+                <li>Elle est ensuite convertie en chaleur (rayonnement infrarouge) qui est renvoyée vers l'espace</li>
+                <li>Une partie du rayonnement infrarouge est absorbée par les molécules de gaz à effet de serre entraînant le réchauffement de la basse atmosphère et de la Terre</li>
+                <li>Le reste du rayonnement solaire passe à travers l'atmosphère et se perd dans l'espace</li>
+              </ol>
+            </div>
+          </div>
+          <div 
+            class="my-auto col"
+            data-aos="fade-left"
+            data-aos-delay="400"
+            stye="align-self: center; "
+          >
+            <h2>Impacts du Changement Climatique</h2>
+            <p>Les impacts du changement climatique incluent des phénomènes météorologiques extrêmes, la montée du niveau des mers, des perturbations des écosystèmes et des risques accrus pour la santé humaine.</p>
+            <p>La fonte des calottes glaciaires et des glaciers entraîne une élévation du niveau de la mer, menaçant les communautés côtières et les îles basses.</p>
+            <p>Les vagues de chaleur plus fréquentes et plus intenses augmentent les risques de maladies liées à la chaleur et aggravent les conditions de sécheresse.</p>
+            <p>Les changements dans les régimes de précipitations affectent l'agriculture, réduisant la sécurité alimentaire dans de nombreuses régions.</p>
+            <p>La perte de biodiversité due aux changements climatiques affecte les écosystèmes, perturbant les services écosystémiques essentiels.</p>
+        </div>
       </section>
 
-      <section id="solutions">
-        <h2>Solutions au Changement Climatique</h2>
-        <p>
-          Les solutions pour lutter contre le changement climatique comprennent
-          le passage aux énergies renouvelables, l'amélioration de l'efficacité
-          énergétique, la reforestation et le développement de pratiques
-          agricoles durables.
-        </p>
-        <p>
-          Le développement et l'utilisation accrue de sources d'énergie
-          renouvelables comme le solaire, l'éolien et l'hydroélectricité sont
-          essentiels pour réduire les émissions de gaz à effet de serre.
-        </p>
-        <p>
-          L'amélioration de l'efficacité énergétique dans les bâtiments, les
-          transports et l'industrie peut réduire considérablement la
-          consommation d'énergie et les émissions.
-        </p>
-        <p>
-          La reforestation et la gestion durable des forêts aident à absorber le
-          CO2 de l'atmosphère.
-        </p>
-        <p>
-          Adopter des pratiques agricoles durables et réduire le gaspillage
-          alimentaire contribuent également à atténuer le changement climatique.
-        </p>
+      <section data-aos="fade-up" id="solutions">
+        <div class="row">
+          <div 
+            class="row"
+            data-aos="fade-right"
+            stye="align-self: center; "
+          >
+            <div class="col-6 mx-auto">
+              <h2>Solutions au Changement Climatique</h2>
+              <p>Les solutions pour lutter contre le changement climatique comprennent le passage aux énergies renouvelables, l'amélioration de l'efficacité énergétique, la reforestation et le développement de pratiques agricoles durables.</p>
+              <p>Le développement et l'utilisation accrue de sources d'énergie renouvelables comme le solaire, l'éolien et l'hydroélectricité sont essentiels pour réduire les émissions de gaz à effet de serre.</p>
+              <p>L'amélioration de l'efficacité énergétique dans les bâtiments, les transports et l'industrie peut réduire considérablement la consommation d'énergie et les émissions.</p>
+              <p>La reforestation et la gestion durable des forêts aident à absorber le CO2 de l'atmosphère.</p>
+              <p>Adopter des pratiques agricoles durables et réduire le gaspillage alimentaire contribuent également à atténuer le changement climatique.</p>
+            </div>
+          </div>
+          <div 
+            data-aos="fade-left" 
+            class="row" 
+            stye="align-self: center;"
+          >
+            <div class="col-6 mx-auto">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-01-700x700.png" alt="visu1" id="visu1" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-02-700x700.png" alt="visu2" id="visu2" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-03-700x700.png" alt="visu3" id="visu3" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-04-700x700.png" alt="visu4" id="visu4" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-05-700x700.png" alt="visu5" id="visu5" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-06-700x700.png" alt="visu6" id="visu6" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-07-700x700.png" alt="visu7" id="visu7" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-08-700x700.png" alt="visu8" id="visu8" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-09-1-700x700.png" alt="visu9" id="visu9" height="100%">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/camille_etienne-giec-3-visu-10-700x700.jpg" alt="visu10" id="visu10" height="100%">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section id="actions">
-        <h2>Actions Individuelles et Collectives</h2>
-        <p>
-          Les actions individuelles, telles que réduire la consommation
-          d'énergie, utiliser des transports moins polluants et adopter une
-          alimentation plus durable, peuvent contribuer significativement à la
-          lutte contre le changement climatique.
-        </p>
-        <p>
-          Utiliser les transports en commun, le covoiturage, le vélo ou la
-          marche au lieu de la voiture individuelle peut réduire les émissions
-          de gaz à effet de serre.
-        </p>
-        <p>
-          Diminuer la consommation de viande, en particulier de bœuf et
-          d'agneau, peut réduire les émissions de méthane et l'utilisation des
-          terres.
-        </p>
-        <p>
-          Opter pour des appareils électroménagers à haute efficacité
-          énergétique et éteindre les appareils lorsqu'ils ne sont pas utilisés.
-        </p>
-        <p>
-          Participer à des initiatives locales de plantation d'arbres ou de
-          nettoyage des déchets pour améliorer l'environnement local.
-        </p>
-        <button id="learnMore">En savoir plus</button>
+      <section data-aos="fade-up" id="actions">
+        <div class="row">
+          <div 
+            class="my-auto col"
+            data-aos="fade-right"
+            stye="align-self: center; "
+          >
+            <h2>Actions Individuelles et Collectives</h2>
+            <p>Les actions individuelles, telles que réduire la consommation d'énergie, utiliser des transports moins polluants et adopter une alimentation plus durable, peuvent contribuer significativement à la lutte contre le changement climatique.</p>
+            <p>Utiliser les transports en commun, le covoiturage, le vélo ou la marche au lieu de la voiture individuelle peut réduire les émissions de gaz à effet de serre.</p>
+            <p>Diminuer la consommation de viande, en particulier de bœuf et d'agneau, peut réduire les émissions de méthane et l'utilisation des terres.</p>
+            <p>Opter pour des appareils électroménagers à haute efficacité énergétique et éteindre les appareils lorsqu'ils ne sont pas utilisés.</p>
+            <p>Participer à des initiatives locales de plantation d'arbres ou de nettoyage des déchets pour améliorer l'environnement local.</p>
+            <button id="learnMore">En savoir plus</button>
+          </div>
+          <div 
+            data-aos="fade-left" 
+            class="my-auto col" 
+            stye="align-self: center;"
+          >
+            <a href="/images/giec-re6-gt3-graph-transports.png" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/giec-re6-gt3-graph-transports.png" alt="" style="max-height: 200px; ">
+            </a>
+            <a href="/images/giec-re6-gt3-graph-energies-1.png" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/giec-re6-gt3-graph-energies-1.png" alt="" style="max-height: 200px; ">
+            </a>
+            <a href="/images/7axes_rs_12.jpg" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/7axes_rs_12.jpg" alt="" style="max-height: 200px; ">
+            </a>
+            <a href="/images/7axes_rs_9.jpg" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/7axes_rs_9.jpg" alt="" style="max-height: 200px; ">
+            </a>
+            <a href="/images/7axes_rs_10-1.jpg" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/7axes_rs_10-1.jpg" alt="" style="max-height: 200px; ">
+            </a>
+            <a href="/images/7axes_rs_8.jpg" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/7axes_rs_8.jpg" alt="" style="max-height: 200px; ">
+            </a>
+            <a href="/images/7axes_rs_13.jpg" data-jbox-image="gallery1" title="My image">
+              <img class="jbxImg" src="/images/7axes_rs_13.jpg" alt="" style="max-height: 200px; ">
+            </a>
+          </div>
+        </div>
       </section>
 
-      <section id="engagement">
+      <section data-aos="fade-up" id="engagement">
         <h2>Engagement Communautaire et Politique</h2>
-        <p>
-          L'engagement communautaire et la pression politique sont essentiels
-          pour encourager les gouvernements et les entreprises à adopter des
-          politiques plus respectueuses de l'environnement.
-        </p>
-        <p>
-          S'impliquer dans des groupes de défense de l'environnement et
-          participer à des manifestations et des campagnes de sensibilisation.
-        </p>
-        <p>
-          Voter pour des représentants politiques qui s'engagent à prendre des
-          mesures fortes contre le changement climatique.
-        </p>
-        <p>
-          Soutenir les entreprises qui adoptent des pratiques durables et
-          réduisent leur empreinte carbone.
-        </p>
-        <p>
-          Encourager les écoles et les communautés locales à adopter des
-          pratiques durables et à éduquer sur le changement climatique.
-        </p>
+        <p>L'engagement communautaire et la pression politique sont essentiels pour encourager les gouvernements et les entreprises à adopter des politiques plus respectueuses de l'environnement.</p>
+        <p>S'impliquer dans des groupes de défense de l'environnement et participer à des manifestations et des campagnes de sensibilisation.</p>
+        <p>Voter pour des représentants politiques qui s'engagent à prendre des mesures fortes contre le changement climatique.</p>
+        <p>Soutenir les entreprises qui adoptent des pratiques durables et réduisent leur empreinte carbone.</p>
+        <p>Encourager les écoles et les communautés locales à adopter des pratiques durables et à éduquer sur le changement climatique.</p>
       </section>
-
-      <!-- <canvas id="tetrisCanvas" width="240" height="400"></canvas>
-        <p id="score"></p> -->
     </main>
 
     <footer>
       <p>&copy; 2023 Application sur le Changement Climatique</p>
-      <p>Réalisé par :</p>
+      <p>Réalisé par : </p>
       <p>Alexis AVENEL</p>
       <p>Malo MÉNARD</p>
       <p>Matéo LAMBERT</p>
@@ -181,18 +224,44 @@
       <p>Viveka MADOMERCANDY</p>
     </footer>
 
-    <script src="assets/js/konami.js"></script>
+    <script src="konami.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.js"></script>
     <script>
-      // Disable arrow keys for scrolling
-      window.addEventListener("keydown", function (e) {
-        // If the pressed key is an arrow key, prevent the default behavior
-        if (
-          ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.key)
-        ) {
-          e.preventDefault();
-        }
+      // Initialize AOS
+      AOS.init();
+
+      // Initialize Swiper
+      const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
       });
+
+      // Initialize LightGallery
+      lightGallery(document.getElementById('lightgallery'), {
+        licenseKey: '`0000-0000-000-0000',
+        speed: 500,
+      });
+
+      // Initialize jBox
+      new jBox('Image');
     </script>
-    <!--  <script src="assets/js/script.js"></script> -->
   </body>
 </html>
