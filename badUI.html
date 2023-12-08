@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="badUI.css">
+  <title>En savoir plus</title>
+</head>
+<body>
+  <div id="content">
+    <h1>Welcome to Chaos Design!</h1>
+    <p>This page changes its design with every refresh. Brace yourself!</p>
+     <!-- Ajout du menu déroulant pour les thèmes -->
+     <label for="themeSelector">Choose a theme:</label>
+     <select id="themeSelector" onchange="changeTheme()">
+       <option value="default">Default</option>
+       <option value="rainbow">Rainbow</option>
+       <option value="dark">Dark</option>
+     </select>
+  </div>
+  <button id="languageButton">Change language</button>
+	<button id="popupButton">Return to main page</button>
+  <button id="impossibleButton" onmouseover="moveButton()">Survolez-moi si vous le pouvez!</button>
+
+  <script src="badUI.js"></script>
+</body>
+</html>
